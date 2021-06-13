@@ -1,6 +1,6 @@
 👋
 Hi!
-My Room homepage solution from Frontend Mentor
+My Easybank solution from Frontend Mentor
 
 # Frontend Mentor - Room homepage
 
