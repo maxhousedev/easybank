@@ -2,9 +2,9 @@
 Hi!
 My Easybank solution from Frontend Mentor
 
-# Frontend Mentor - Room homepage
+# Frontend Mentor - Easybank landing page
 
-![Design preview for the Room homepage coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Easybank landing page coding challenge](./design/desktop-preview.jpg)
 
 ## The challenge
 
