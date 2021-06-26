@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
     return gsap.from('.hero__img', {
       opacity: 0.2,
       yPercent: -101,
-      duration: 2,
+      duration: 4,
       ease: 'power4'
     });
   };
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
       y: 0,
       opacity: 1,
       stagger: 0.2,
-      duration: 1,
+      duration: 4,
       ease: 'power4'
     });
   };
@@ -49,11 +49,11 @@ document.addEventListener('DOMContentLoaded', function () {
         tweenHeroImg();
       }
 
-      if (isElementInViewport('.card__item') && !isElementInViewport('.title') && !isElementInViewport('.articles__title')) {
+      if (isElementInViewport('h1')) {
         tween('.card__item');
       }
 
-      if (isElementInViewport('.articles__item') && !isElementInViewport('.card__item')) {
+      if (isElementInViewport('.card__item:last-child')) {
         tween('.articles__item');
       }
     });
